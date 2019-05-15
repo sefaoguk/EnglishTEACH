@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="css/style.css"><!-- CSS Dosyası-->
+     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet"> <!-- Font Stili Linki-->
+     <link rel="icon" type="image/png" href="img/icons8-abc-80.png">
+     <meta charset="UTF-8">
+     <title>EnglishTEACH - englishteach.com</title>
+ </head>
+
+ <body id="iletisim-body">
+
+     <!-- Navbar başlangıcı-->
+     <nav class="navbar  fixed-nav bg-dark navbar-dark navbar-expand-lg">
+         <div class="container py-1">
+             <a class="navbar-brand a1" style="color:grey;font-style:italic" href="index.html"><strong>English<span style="color:gold ">TEACH</span></strong></a>
+
+             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-1" aria-controls="navbar-1"><span class="navbar-toggler-icon"></span></button>
+
+             <div class="collapse navbar-collapse" id="navbar-1">
+                 <ul class="navbar-nav ml-auto">
+                     <li class="nav-item"><a href="index.html" class="nav-link">Anasayfa</a></li>
+                     <li class="nav-item"><a href="kelimeler.html" class="nav-link">Kelimeler</a></li>
+                     <li class="nav-item"><a href="hikayeler.html" class="nav-link">Hikayeler</a></li>
+                     <li class="nav-item"><a href="dinletiler.html" class="nav-link  ">Dinletiler</a></li>
+                     <li class="nav-item"><a href="iletisim.html" class="nav-link active">İletişim</a>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+     </nav>
+     <!-- Navbar bitiş-->
+     <!-- Kelimeler linkinin başlangıcı-->
+     <div class="container" id="iletisim">
+         <br><br><br>
+         <h4>Bizimle iletişime geçmek için lütfen aşağıdaki formu doldurunuz.</h4>
+         <p>Dilek ve şikayetleriniz bizim için önem arz etmektedir. Görüşleriniz için şimdiden teşekkür ederiz...</p>
+         <br><br>
+         <div>
+             <form action="/action_page.php">
+                 <div class="row">
+                     <div class="col-lg-6">
+                         <label for="ad"><strong>Adınız Soyadınız:</strong></label>
+                         <input type="text" id="ad" name="ad" placeholder="Adınızı ve Soyadınızı Giriniz ...">
+                         <label for="t_numara"><strong>Telefon Numaranız:</strong></label>
+                         <input type="text" id="p_number" name="p_number" placeholder="Telefon Numaranızı Giriniz ...">
+                     </div>
+                     <div class="col-lg-6">
+                         <label for="country"><strong>E-Mail Adresiniz:</strong></label>
+                         <input type="text" id="p_number" name="p_number" placeholder="E-Mail Adresiniz Giriniz ...">
+                         <label for="il"><strong>Yaşadığınız İl:</strong></label>
+                         <select id="country" name="country">
+                             <option value="adana">Adana</option>
+                             <option value="ankara">Ankara</option>
+                             <option value="balıkesir">Balıkesir</option>
+                             <option value="bolu">Bolu</option>
+                             <option value="bursa">Bursa</option>
+                             <option value="denizli">Denizli</option>
+                             <option value="düzce">Düzce</option>
+                             <option value="giresun">Giresun</option>
+                             <option value="istanbul">İstanbul</option>
+                             <option value="izmir">İzmir</option>
+                             <option value="samsun">Samsun</option>
+                         </select>
+                     </div>
+                     <label for="country" style="margin:15px;"><strong>Göndermek İstediğiniz Mesajınız:</strong></label>
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mesajınızı Giriniz ..."></textarea>
+                     <input type="submit" value="Gönder">
+                 </div>
+             </form>
+         </div>
+         <div id="iletisim_bilgileri">
+             <h5>Adres ve İletişim Bilgilerimiz</h5><br>
+             <p><strong>Adres:</strong> Kemalpaşa Mahallesi Namık Kemal Caddesi 1908.sokak No:43 BAĞCILAR/İSTANBUL</p>
+             <p><strong>Telefon:</strong> +90 0537 745 68 52</p>
+             <p><strong>Çalışma Saatlerimiz:</strong> Haftaiçi Her Gün: 09.00-20.00 Haftasonu: 09.00-17.00 </p>
+             <br><br>
+
+
+         </div>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48145.611538650286!2d28.805309085010865!3d41.04492643397433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa53c38a5db77%3A0xe1b6d8f8973f9ff0!2zQmHEn2PEsWxhci_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1555364084309!5m2!1str!2str" width="600" height="450" frameborder="0" style="border:3px solid #339FFF;margin-left:25%" allowfullscreen></iframe>
+     </div>
+
+
+
+     <!--Kelimeler linkinin bitişi-->
+     <div class="jumbotron" style="margin-bottom:0;margin-top:60px;">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-6">
+                     <p>
+                         <strong>BUGÜN NE ÖĞRENMEK İSTERSİN ?</strong><br>
+                         <hr>
+                         Bilmediğin bir konuyu anlamak, Telaffuzunu geliştirmek, Yeni kelimeler öğrenmek ya da ana dili İngilizce olan insanların kullandığı kalıpları konuşmana katmak... Bugün ne öğrenmek istersin?<br><br>
+                         <p>İstekleriniz için hemen <a href="iletisim.html"> iletişime</a> geçmeyi unutmayın..</p>
+                 </div>
+
+                 <div class="col-lg-6">
+                     <strong>TAKİPTE KALIN</strong>
+                     <table>
+                         <tr>
+                             <td><a target="_blank" href="http://www.facebook.com.tr"><img class="footer-icon" src="img/facebook-icon.jpg"></a></td>
+                             <td>Facebook</td>
+                         </tr>
+                         <tr>
+                             <hr>
+                             <td><a target="_blank" href="http://twitter.com.tr"><img class="footer-icon" src="img/twitter-icon.jpg"></a></td>
+                             <td> Twitter</td>
+                         </tr>
+                         <tr>
+                             <td><a target="_blank" href="http://www.instagram.com.tr"><img class="footer-icon" src="img/instagram-icon.jpg"></a></td>
+                             <td> İnstagram</td>
+                         </tr>
+                     </table>
+
+                 </div>
+
+             </div>
+         </div>
+
+     </div>
+
+ </body>
+
+ </html>
